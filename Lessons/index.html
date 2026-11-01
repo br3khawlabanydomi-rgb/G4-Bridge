@@ -1,23 +1,182 @@
-<a href="./Term01_Week01/ICS_AI-CS_Bridging_G04_T1_W01_Website/index.html">
-  Open Week 01
-</a>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grade 4 AI Learning Hub | ICS</title>
 
-<a href="./Term01_Week02/ICS_AI-CS_Bridging_G04_T1_W02_Website/index.html">
-  Open Week 02
-</a>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
 
-<a href="./Term01_Week03/ICS_AI-CS_Bridging_G04_T1_W03_Website/index.html">
-  Open Week 03
-</a>
+    body {
+      margin: 0;
+      font-family: "Times New Roman", serif;
+      background: #f3f6fa;
+      color: #182d45;
+      line-height: 1.6;
+    }
 
-<a href="./Term01_Week04/ICS_AI-CS_Bridging_G04_T1_W04_Website/index.html">
-  Open Week 04
-</a>
+    header {
+      padding: 42px 20px;
+      text-align: center;
+      background: #143955;
+      color: white;
+      border-bottom: 6px solid #caa455;
+    }
 
-<a href="./Term01_Week05/ICS_AI-CS_Bridging_G04_T1_W05_Website/index.html">
-  Open Week 05
-</a>
+    header h1 {
+      margin: 8px 0;
+      font-size: 2.2rem;
+    }
 
-<a href="./Term01_Week06/ICS_AI-CS_Bridging_G04_T1_W06_Website/index.html">
-  Open Week 06
-</a>
+    header p {
+      margin: 6px 0;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: auto;
+      padding: 28px 20px 45px;
+    }
+
+    .intro {
+      text-align: center;
+      margin-bottom: 26px;
+    }
+
+    .weeks {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 18px;
+    }
+
+    .week {
+      display: block;
+      padding: 26px;
+      background: white;
+      border: 1px solid #d8e1eb;
+      border-top: 5px solid #caa455;
+      border-radius: 12px;
+      text-decoration: none;
+      color: #182d45;
+      box-shadow: 0 4px 12px #1439550d;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .week:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 20px #14395520;
+    }
+
+    .week:focus-visible {
+      outline: 3px solid #1469af;
+      outline-offset: 5px;
+    }
+
+    .week h2 {
+      margin: 0 0 8px;
+    }
+
+    .week p {
+      margin: 0 0 16px;
+    }
+
+    .open {
+      font-weight: bold;
+      color: #175b87;
+    }
+
+    .notice {
+      margin-top: 28px;
+      padding: 18px;
+      background: #e7eef5;
+      border-radius: 10px;
+    }
+
+    footer {
+      padding: 20px;
+      text-align: center;
+      font-size: 0.95rem;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .week {
+        transition: none;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <p>International Community Schools · Khalifa City · Branch 3</p>
+    <h1>Grade 4 AI Learning Hub</h1>
+    <p>Term 1 · Academic Year 2026–2027</p>
+    <p>Ms. Khawla Banydomi</p>
+  </header>
+
+  <main>
+    <div class="intro">
+      <h2>Welcome, AI Explorers!</h2>
+      <p>Choose your week, explore the lesson, and complete its activities.</p>
+    </div>
+
+    <nav class="weeks" aria-label="Weekly lessons">
+
+      <a class="week"
+         href="./Term01_Week01/ICS_AI-CS_Bridging_G04_T1_W01_Website/index.html">
+        <h2>Week 1</h2>
+        <p>Explore your lesson and activities.</p>
+        <span class="open">Open Week 1 →</span>
+      </a>
+
+      <a class="week"
+         href="./Term01_Week02/ICS_AI-CS_Bridging_G04_T1_W02_Website/index.html">
+        <h2>Week 2</h2>
+        <p>Continue your AI learning journey.</p>
+        <span class="open">Open Week 2 →</span>
+      </a>
+
+      <a class="week"
+         href="./Term01_Week03/ICS_AI-CS_Bridging_G04_T1_W03_Website/index.html">
+        <h2>Week 3</h2>
+        <p>Discover new ideas and practise your skills.</p>
+        <span class="open">Open Week 3 →</span>
+      </a>
+
+      <a class="week"
+         href="./Term01_Week04/ICS_AI-CS_Bridging_G04_T1_W04_Website/index.html">
+        <h2>Week 4</h2>
+        <p>Explore, think, and complete your challenges.</p>
+        <span class="open">Open Week 4 →</span>
+      </a>
+
+      <a class="week"
+         href="./Term01_Week05/ICS_AI-CS_Bridging_G04_T1_W05_Website/index.html">
+        <h2>Week 5</h2>
+        <p>Build your understanding through activities.</p>
+        <span class="open">Open Week 5 →</span>
+      </a>
+
+      <a class="week"
+         href="./Term01_Week06/ICS_AI-CS_Bridging_G04_T1_W06_Website/index.html">
+        <h2>Week 6</h2>
+        <p>Complete the next step in your learning journey.</p>
+        <span class="open">Open Week 6 →</span>
+      </a>
+
+    </nav>
+
+    <aside class="notice">
+      <strong>Learn safely:</strong>
+      Follow your teacher’s instructions and keep your personal information private.
+    </aside>
+  </main>
+
+  <footer>
+    ICS Khalifa City · Branch 3 | AI &amp; Computer Science
+  </footer>
+</body>
+</html>
